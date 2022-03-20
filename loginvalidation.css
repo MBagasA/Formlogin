@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Montserrat',sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.box{
+    border-radius: 20px;
+    width: 300px;
+    padding: 30px;
+    /* border: 2px solid orangered; */
+    background: rgba(0,0,0,0.4);
+    box-shadow: 1px 1px 2px #ffc400ef;
+    display: flex;
+    flex-direction: column;
+}
+.box h1{
+    color: #fff;
+    text-transform: uppercase;
+    align-self:center;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+}
+.box input[type="text"],
+.box input[type="password"]{
+    font-size: 20px;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgba(241, 241, 241, 0.795);
+}
+
+.username, .password{
+    position: relative;
+}
+
+.fa-envelope, 
+.fa-lock-open{
+    position: absolute;
+    left: 20px;
+    bottom: 8px;
+    color: white
+}
+
+.wrapper{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+#btn{
+    border: 0;
+    background: none;
+    display: block;
+    margin:20px auto;
+    text-align: center;
+    border: 3px solid #ffffffec;
+    padding: 14px 35px;
+    font-size: 18px;
+    color: rgb(256, 256, 256);
+    border-radius: 20px;
+}
+#btn:hover{
+    background-color: #fff;
+    color:rgb(0, 0, 0);
+    border-radius: 3px solid #000;
+}
